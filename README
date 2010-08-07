@@ -1,0 +1,8 @@
+Something about my twitter name ("adr") gets tons of replies from Malay/Indonesian dudes.  *apparently* in Bahasa, doing @adr at the end of repiles means "This is the address of the link I'm talking about."  All well and good, except *anything* with @adr shows up in my replies and sometimes I get like ten of them at a time.  so I'd like a script that:
+
+1) Pulls up recent @replies to @adr
+1a) *preferably* looks at @replies from people to whom @adr is not subscribed
+2) Takes each recent @reply account and loads, say, the last 20 tweets.
+3) Analyzes those tweets to determine native language
+4) If there's a >70% chance that the native language is Bahasa then immediately issue a block on that account.
+5) Appends to a list of blocked accounts for later review.
