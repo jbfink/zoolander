@@ -4,5 +4,7 @@ Something about my twitter name ("adr") gets tons of replies from Malay/Indonesi
 1a) *preferably* looks at @replies from people to whom @adr is not subscribed.
 2) Takes each recent @reply account and loads, say, the last 20 tweets.
 3) Analyzes those tweets to determine native language.
+3a) This probably *can't* be done via any sort of Google-ish API on language identify.
+3b) It *might* be done by feeding a big corpus of Bahasa and a big corpus of English into http://classifier.rubyforge.org/. We'll try that.
 4) If there's a >70% chance that the native language is Bahasa then immediately issue a block on that account.
 5) Appends to a list of blocked accounts for later review.
